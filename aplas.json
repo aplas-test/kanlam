@@ -22,7 +22,48 @@
       "months_to_renew_support": "5",
       "sme_email": "Gusella.Thunnerclef@memento.net.au",
       "vendor_phone": "+351 176 500 0534",
-      "investment_number": "58"
+      "investment_number": "58",
+      "integrations": [
+        {
+          "id": "int-303",
+          "name": "INT-303",
+          "categoryId": "3bdb7133-46fe-4c31-a5ec-9910379cbf29",
+          "description": "Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci.",
+          "sourceApplicationId": "kanlam",
+          "targetApplicationId": "cookley",
+          "logical_server": "BATCH",
+          "status_color": "#00FFFF",
+          "pattern": "Aggregator",
+          "golive_date": "8/7/11",
+          "sme_name": "Dominique Catling",
+          "decom_date": "26/1/17",
+          "datacentre": "Dandenong",
+          "department": "Integration",
+          "status": "ToBeDecom",
+          "sme_email": "dcatling1@memento.net.au",
+          "complexity": "Low",
+          "last_deployment_date": "10/11/15"
+        },
+        {
+          "id": "int-353",
+          "name": "INT-353",
+          "categoryId": "f577e6b3-e343-4ec8-ab63-47985e0b2799",
+          "description": "Integer a nibh.",
+          "sourceApplicationId": "kanlam",
+          "targetApplicationId": "cookley",
+          "logical_server": "CLOUD-B2B",
+          "status_color": "#00FF00",
+          "pattern": "Async Response",
+          "golive_date": "18/1/05",
+          "sme_name": "Alfy Greader",
+          "datacentre": "Asia Pacific (Sydney)",
+          "department": "Datawarehouse",
+          "status": "Active",
+          "sme_email": "agreaderj@memento.net.au",
+          "complexity": "Medium",
+          "last_deployment_date": "27/7/15"
+        }
+      ]
     }
   ]
 }
